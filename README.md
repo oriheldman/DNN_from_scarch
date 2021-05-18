@@ -1,5 +1,6 @@
 # DNN_from_scarch
-A neural network “from scratch”. 
+A neural network “from scratch” including: Forward/Backword propagation, batch normalization and dropout.
+Evaluation prediction task: classify the MNIST dataset (grayscale digit images) 
 
 ## NN Architecture
 The NN consists of 4 layers, aside from the input layer. The layers are the following size: 20, 7, 5 ,10 (final layer is the output layer). Each layer is a fully connected layer (FC) that uses the Relu activation function in the hidden layers and the softmax function in the output layer. The NN supports batch normalization and dropout.
